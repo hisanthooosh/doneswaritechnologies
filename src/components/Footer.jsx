@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Linkedin, Mail, MapPin, Phone, Github, Twitter } from 'lucide-react';
+import { Linkedin, Mail, MapPin, Phone, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="bg-slate-950 border-t border-white/10 text-slate-300 pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
-          
+
           {/* Column 1: Brand Info */}
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-6">
@@ -18,9 +18,29 @@ const Footer = () => {
               A DPIIT-recognized, women-led startup innovating education through SaaS automation and career intelligence.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition"><Linkedin className="w-4 h-4"/></a>
-              <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 hover:text-white transition"><Github className="w-4 h-4"/></a>
-              <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-500 hover:text-white transition"><Twitter className="w-4 h-4"/></a>
+
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/doneswari-software-solutions-4460b33a7/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/doneswarisoftwaresolution/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-pink-600 hover:text-white transition"
+              >
+                <Instagram className="w-4 h-4" />
+              </a>
+
+              
+
             </div>
           </div>
 
@@ -53,8 +73,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0" />
                 <span>
-                  <strong>Registered Office:</strong><br/>
-                  Chittoor, Andhra Pradesh,<br/>India.
+                  <strong>Registered Office:</strong><br />
+                  Chittoor, Andhra Pradesh,<br />India.
                 </span>
               </li>
               <li className="flex items-center">

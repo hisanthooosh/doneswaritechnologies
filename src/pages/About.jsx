@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Target, Users, TrendingUp, MapPin, Award, BookOpen, Rocket } from 'lucide-react';
+import { Target, Users, TrendingUp, MapPin, Award, BookOpen, Rocket, ShieldCheck } from 'lucide-react';
 
 const About = () => {
   const fadeInUp = {
@@ -18,15 +18,15 @@ const About = () => {
 
   return (
     <div className="bg-slate-900 text-white overflow-hidden selection:bg-blue-500 selection:text-white">
-      
+
       {/* ================= HERO SECTION ================= */}
       <section className="relative py-24 px-4 text-center border-b border-white/10">
         <div className="absolute top-0 left-0 w-full h-full bg-blue-900/10 -z-10"></div>
         <div className="absolute -top-20 -right-20 w-96 h-96 bg-blue-600 rounded-full blur-[120px] opacity-20"></div>
-        
-        <motion.div 
-          initial="hidden" 
-          animate="visible" 
+
+        <motion.div
+          initial="hidden"
+          animate="visible"
           variants={fadeInUp}
           className="max-w-4xl mx-auto"
         >
@@ -45,7 +45,7 @@ const About = () => {
       {/* ================= THE PROBLEM & SOLUTION ================= */}
       <section className="py-20 px-4 bg-slate-950">
         <div className="container mx-auto max-w-6xl">
-          <motion.div 
+          <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -105,30 +105,45 @@ const About = () => {
 
       {/* ================= COMPANY STATS ================= */}
       <section className="py-20 bg-blue-900/20 border-y border-white/5">
-        <div className="container mx-auto max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="container mx-auto max-w-6xl grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
+
+          {/* MSME */}
+          <div>
+            <ShieldCheck className="w-10 h-10 text-green-400 mx-auto mb-4" />
+            <h4 className="text-2xl font-bold mb-2">MSME</h4>
+            <p className="text-blue-200 text-sm uppercase tracking-wide">Government Registered</p>
+          </div>
+
+          {/* AICTE */}
+          <div>
+            <ShieldCheck className="w-10 h-10 text-purple-400 mx-auto mb-4" />
+            <h4 className="text-2xl font-bold mb-2">AICTE</h4>
+            <p className="text-blue-200 text-sm uppercase tracking-wide">Internship Approved</p>
+          </div>
+
+          {/* DPIIT */}
           <div>
             <Award className="w-10 h-10 text-yellow-400 mx-auto mb-4" />
-            <h4 className="text-4xl font-bold mb-2">DPIIT</h4>
+            <h4 className="text-2xl font-bold mb-2">DPIIT</h4>
             <p className="text-blue-200 text-sm uppercase tracking-wide">Recognized Startup</p>
           </div>
+
+          {/* Women Shareholding */}
           <div>
             <Users className="w-10 h-10 text-pink-400 mx-auto mb-4" />
-            <h4 className="text-4xl font-bold mb-2">51%</h4>
+            <h4 className="text-2xl font-bold mb-2">51%</h4>
             <p className="text-blue-200 text-sm uppercase tracking-wide">Women Shareholding</p>
           </div>
+
+          {/* Location */}
           <div>
             <MapPin className="w-10 h-10 text-green-400 mx-auto mb-4" />
-            <h4 className="text-4xl font-bold mb-2">AP</h4>
+            <h4 className="text-2xl font-bold mb-2">AP</h4>
             <p className="text-blue-200 text-sm uppercase tracking-wide">Registered in Chittoor</p>
           </div>
-          <div>
-            <TrendingUp className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
-            <h4 className="text-4xl font-bold mb-2">20+</h4>
-            <p className="text-blue-200 text-sm uppercase tracking-wide">Employment Goal</p>
-          </div>
+
         </div>
       </section>
-
       {/* ================= OUR STORY ================= */}
       <section className="py-24 px-4">
         <div className="container mx-auto max-w-4xl text-center">
@@ -154,8 +169,8 @@ const About = () => {
         <p className="text-blue-200 max-w-2xl mx-auto mb-8">
           We are actively hiring interns for Content and Sales roles. Help us build the future of EdTech.
         </p>
-        <a 
-          href="mailto:doneswarisoftwaresolutions@gmail.com" 
+        <a
+          href="mailto:doneswarisoftwaresolutions@gmail.com"
           className="inline-flex items-center bg-white text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition"
         >
           Apply Now
