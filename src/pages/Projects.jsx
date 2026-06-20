@@ -167,10 +167,16 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-4">
-                <button className="px-6 py-3 bg-blue-600 rounded-full font-bold hover:bg-blue-500 transition">Request Demo</button>
-                <button className="px-6 py-3 border border-white/20 rounded-full font-bold hover:bg-white/10 transition">View Features</button>
-              </div>
-            </div>
+  <a
+               href="https://makemyproject.tech"
+               target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-blue-600 rounded-full font-bold hover:bg-blue-500 transition inline-block"
+  >
+    Visit Site
+  </a>
+</div>
+   </div>           
 
             {/* Visual Side (Abstract Representation of UI) */}
             <div className="relative h-full min-h-[400px] bg-slate-900 rounded-2xl border border-white/10 p-6 flex flex-col justify-center">

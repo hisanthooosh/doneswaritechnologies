@@ -176,9 +176,14 @@ const Home = () => {
                   <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-blue-500 mr-3" /> Live A4 Preview</li>
                   <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-blue-500 mr-3" /> Automated Faculty Approval</li>
                 </ul>
-                <Link to="/projects" className="text-blue-400 font-bold hover:text-white transition flex items-center">
-                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
+                <a
+                href="https://makemyproject.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                 className="text-blue-400 font-bold hover:text-white transition flex items-center"
+>
+  Visit Platform <ArrowRight className="w-4 h-4 ml-2" />
+</a>
               </div>
             </motion.div>
 
@@ -202,9 +207,14 @@ const Home = () => {
                  <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> Flexible Subscription Plans</li>
                  <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> Digital Menu Management</li>
                 </ul>
-                <Link to="/projects" className="text-pink-400 font-bold hover:text-white transition flex items-center">
-                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
+                <a
+                href="https://bookmymess.me"
+                 target="_blank"
+                    rel="noopener noreferrer"
+                  className="text-pink-400 font-bold hover:text-white transition flex items-center"
+>
+  Visit Platform <ArrowRight className="w-4 h-4 ml-2" />
+</a>
               </div>
             </motion.div>
 
