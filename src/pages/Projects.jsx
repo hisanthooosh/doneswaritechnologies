@@ -204,7 +204,7 @@ const Projects = () => {
         </div>
       </section>
 
-      {/* ================= PRODUCT 2: WHATISNXT ================= */}
+      {/* ================= PRODUCT 2: Book My mess ================= */}
       <section className="py-24 px-4 bg-black/20">
         <div className="container mx-auto max-w-6xl">
           <motion.div
@@ -222,8 +222,8 @@ const Projects = () => {
                 className="bg-pink-900/20 p-8 rounded-full border border-pink-500/30 w-64 h-64 mx-auto flex items-center justify-center relative"
               >
                 <Globe className="w-24 h-24 text-pink-500" />
-                <div className="absolute top-0 right-0 bg-slate-800 text-xs px-2 py-1 rounded border border-white/10">IIT Mentor</div>
-                <div className="absolute bottom-10 left-0 bg-slate-800 text-xs px-2 py-1 rounded border border-white/10">AIIMS Senior</div>
+                <div className="absolute top-0 right-0 bg-slate-800 text-xs px-2 py-1 rounded border border-white/10">Breakfast</div>
+                <div className="absolute bottom-10 left-0 bg-slate-800 text-xs px-2 py-1 rounded border border-white/10">Dinner</div>
               </motion.div>
             </div>
 
@@ -232,35 +232,44 @@ const Projects = () => {
               <div className="w-16 h-16 bg-pink-600 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-pink-500/30">
                 <Compass className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-4xl font-bold mb-4">WhatIsNxt</h2>
-              <p className="text-pink-400 text-sm font-bold uppercase tracking-widest mb-6">CONCEPT VALIDATION • K-12 EDTECH</p>
+              <h2 className="text-4xl font-bold mb-4">Book My Mess</h2>
+              <p className="text-pink-400 text-sm font-bold uppercase tracking-widest mb-6">FOOD TECH • MEAL BOOKING PLATFORM
+</p>
 
               <p className="text-slate-300 text-lg mb-8 leading-relaxed">
-                A program for schools (Grades 8-10) to help students discover different careers before choosing a stream. We replace generic counseling with real seniors from top institutions.
+                Book My Mess is a smart food booking platform that allows students and working professionals to pre-book meals, manage subscriptions, and enjoy a seamless dining experience without waiting in queues.
               </p>
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
                   <CheckCircle className="w-6 h-6 text-pink-500 mr-4 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-white">Job of the Month</h4>
-                    <p className="text-slate-400 text-sm">Systematic exposure: June for Engineers, July for Doctors, etc.</p>
+                    <h4 className="font-bold text-white">Pre-book Daily Meals</h4>
+                    <p className="text-slate-400 text-sm">Reserve breakfast, lunch, or dinner in advance.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="w-6 h-6 text-pink-500 mr-4 shrink-0" />
                   <div>
-                    <h4 className="font-bold text-white">NEP 2020 Compliant</h4>
-                    <p className="text-slate-400 text-sm">Helps schools meet the government mandate for vocational guidance.</p>
+                    <h4 className="font-bold text-white">Flexible Subscription Plans</h4>
+                    <p className="text-slate-400 text-sm"> Weekly and monthly plans with easy management.
+</p>
                   </div>
                 </div>
               </div>
 
-              <div className="flex gap-4">
-                <button className="px-6 py-3 bg-pink-600 rounded-full font-bold hover:bg-pink-500 transition">Learn More</button>
-              </div>
-            </div>
-
+             <div className="flex gap-4">
+             <a
+             href="https://bookmymess.me"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="px-6 py-3 bg-pink-600 rounded-full font-bold hover:bg-pink-500 transition inline-block"
+            >
+              Visit Site
+           </a>
+        </div>
+         
+         </div>
           </motion.div>
         </div>
       </section>

@@ -60,7 +60,7 @@ const Footer = () => {
             <h4 className="text-white font-bold mb-6">Products</h4>
             <ul className="space-y-3 text-sm">
               <li><Link to="/projects" className="hover:text-blue-400 transition">Make My Report</Link></li>
-              <li><Link to="/projects" className="hover:text-blue-400 transition">WhatIsNxt</Link></li>
+              <li><Link to="/projects" className="hover:text-blue-400 transition">Book My Mess</Link></li>
               <li className="text-slate-500 pt-2 text-xs uppercase tracking-widest font-bold">Coming Soon</li>
               <li><span className="text-slate-600 cursor-not-allowed">School ERP</span></li>
             </ul>
