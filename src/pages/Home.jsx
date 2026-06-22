@@ -176,13 +176,18 @@ const Home = () => {
                   <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-blue-500 mr-3" /> Live A4 Preview</li>
                   <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-blue-500 mr-3" /> Automated Faculty Approval</li>
                 </ul>
-                <Link to="/projects" className="text-blue-400 font-bold hover:text-white transition flex items-center">
-                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
+                <a
+                href="https://makemyproject.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                 className="text-blue-400 font-bold hover:text-white transition flex items-center"
+>
+  Visit Platform <ArrowRight className="w-4 h-4 ml-2" />
+</a>
               </div>
             </motion.div>
 
-            {/* Product Card 2: WhatIsNxt */}
+            {/* Product Card 2: Make My Report */}
             <motion.div
               whileHover={{ y: -10 }}
               className="relative group bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 rounded-3xl p-8 md:p-12 overflow-hidden"
@@ -193,18 +198,23 @@ const Home = () => {
                 <div className="w-16 h-16 bg-pink-500/20 rounded-2xl flex items-center justify-center mb-8 border border-pink-500/30">
                   <Globe className="w-8 h-8 text-pink-400" />
                 </div>
-                <h3 className="text-3xl font-bold mb-4">WhatIsNxt</h3>
+                <h3 className="text-3xl font-bold mb-4">Book My Mess</h3>
                 <p className="text-slate-400 mb-8 leading-relaxed">
-                  Career discovery for Schools (Grades 8-10). We connect students with mentors from top colleges like IITs & AIIMS to democratize career guidance.
+                   A smart food booking platform that allows students and working professionals to pre-book meals, manage subscriptions, and enjoy hassle-free dining experiences.
                 </p>
                 <ul className="space-y-4 mb-8">
-                  <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> Mandatory B2B Model</li>
-                  <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> "Job of the Month" Concept</li>
-                  <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> NEP 2020 Compliant</li>
+                 <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> Pre-book Daily Meals</li>
+                 <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> Flexible Subscription Plans</li>
+                 <li className="flex items-center text-slate-300"><CheckCircle className="w-5 h-5 text-pink-500 mr-3" /> Digital Menu Management</li>
                 </ul>
-                <Link to="/projects" className="text-pink-400 font-bold hover:text-white transition flex items-center">
-                  Learn More <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
+                <a
+                href="https://bookmymess.me"
+                 target="_blank"
+                    rel="noopener noreferrer"
+                  className="text-pink-400 font-bold hover:text-white transition flex items-center"
+>
+  Visit Platform <ArrowRight className="w-4 h-4 ml-2" />
+</a>
               </div>
             </motion.div>
 

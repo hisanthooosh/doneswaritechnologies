@@ -111,7 +111,7 @@ const Vision = () => {
                 </h3>
                 <ul className="space-y-3 text-slate-300">
                   <li className="flex items-start"><span className="text-green-500 mr-2">✓</span> Launch pilot in 5 Colleges & 5 Schools in Tirupati/Chittoor.</li>
-                  <li className="flex items-start"><span className="text-green-500 mr-2">✓</span> Validate "WhatIsNxt" concept in Tier-2 markets.</li>
+                  <li className="flex items-start"><span className="text-green-500 mr-2">✓</span>  Expand and validate the "Book My Mess" platform across colleges and hostels.</li>
                   <li className="flex items-start"><span className="text-green-500 mr-2">✓</span> Hire initial interns for Content & Sales roles.</li>
                 </ul>
               </div>
